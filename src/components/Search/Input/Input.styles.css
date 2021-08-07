@@ -1,0 +1,28 @@
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 542px;
+  height: 52px;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 61px;
+  background-color: var(--purple-color);
+}
+
+.input {
+  height: 100%;
+  width: 85%;
+  border-top-left-radius: 61px 61px;
+  border-bottom-left-radius: 61px 61px;
+  border: none;
+  padding-left: 50px;
+  outline: none;
+}
+
+.inputIcon {
+  background: transparent;
+  border: none;
+  padding-right: 30px;
+  cursor: pointer;
+}

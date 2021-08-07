@@ -1,0 +1,34 @@
+.resultsContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.results {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.gifImage {
+  width: 30%;
+}
+
+.resultsDark {
+  background-color: var(--dark-dark-color);
+  transition: background-color 0.5s ease;
+}
+
+.resultsLight {
+  background-color: var(--light-dark-color);
+  transition: background-color 0.5s ease;
+}
+
+.resultsGifs {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-around;
+}

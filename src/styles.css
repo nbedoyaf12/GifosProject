@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+:root {
+  --purple-color: #572ee5;
+  --light-color: #ffffff;
+  --light-dark-color: #e7e7e7;
+  --dark-color: #373737;
+  --dark-dark-color: #212121;
+}
+
+/* .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  color: var(--purple-color);
+  transition: background-color 0.5s ease;
+  text-align: center;
+  /* max-width: 100vw; */
+/* margin: 0 auto;
+  border: 3px solid yellowgreen;
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: var(--purple-color);
+  transition: background-color 0.5s ease;
+  text-align: center;
+  width: 100%;
+}
+
+.App.dark {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
+
+.App.light {
+  background-color: var(--light-color);
+}
+
+.btn-theme {
+  width: 148px;
+  height: 43px;
+  border: 1px solid var(--purple-color);
+  border-radius: 61px;
+  background-color: var(--light-color);
+  color: var(--purple-color);
+}
+
+.dark .btn-theme {
+  border: 1px solid var(--light-color);
+  background-color: var(--dark-color);
+  color: var(--light-color);
+}
